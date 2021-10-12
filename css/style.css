@@ -1,0 +1,75 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #EFD1B7;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#typeContainer {
+    width: 500px;
+    background-color: #F2B29B;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#typeContainer > #text {
+    width: 250px;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+#typeContainer > #addButton {
+    width: 100px;   
+    border: #384E4C 2px solid;
+    background-color: #384E4C;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 5px;
+    color: #EFD1B7;
+    transition: .2s;
+}
+
+#typeContainer > #addButton:hover,
+#getRandomButton:hover {
+    border: #D58F38 2px solid;
+    color: #D58F38;
+}
+
+#getRandomButton {
+    width: 200px;   
+    border: #384E4C 2px solid;
+    background-color: #384E4C;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 5px;
+    color: #EFD1B7;
+    margin: 10px;
+    transition: .2s;
+}
+
+#optionContainer {
+    width: 500px;
+    background-color: #F2B29B;
+    text-align: left;
+    padding: 50px;
+}
+
+#optionContainer > p {
+    margin: 3px 0px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
